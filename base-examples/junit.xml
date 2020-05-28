@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="0" time="1.927">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-05-28T18:24:49" time="0.608" tests="2">
+    <testcase classname=" fibo(4) === 3" name=" fibo(4) === 3" time="0.004">
+    </testcase>
+    <testcase classname=" fibo(-1) fails" name=" fibo(-1) fails" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="Filesystem" errors="0" failures="0" skipped="0" timestamp="2020-05-28T18:24:50" time="0.25" tests="2">
+    <testcase classname="Filesystem read 1.txt" name="Filesystem read 1.txt" time="0.016">
+    </testcase>
+    <testcase classname="Filesystem read 12.txt (should fail)" name="Filesystem read 12.txt (should fail)" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
