@@ -1,10 +1,36 @@
 {
   "runtime": "nodejs12.x",
   "version": "1.0",
+  "secrets": ["NCHAMBRIER_API_KEY"],
+  "environment": {
+    "DEBUG": "contacts"
+  },
   "endpoints": {
     "formation/nchambrier": {
       "file": "nchambrier.js",
       "method": "GET"
+    },
+    "formation/nchambrier/fibo": {
+      "file": "fibo.js",
+      "method": "GET"
+    },
+    "formation/nchambrier/fibo-post": {
+      "file": "fibo.js",
+      "method": "POST"
+    },
+    "formation/nchambrier/contacts/debug": {
+      "file": "contacts.dist.js",
+      "method": "GET",
+      "environment": {
+        "DEBUG": "contacts"
+      }
+    },
+    "formation/nchambrier/contacts": {
+      "file": "contacts.dist.js",
+      "method": "GET",
+      "environment": {
+        "DEBUG": ""
+      }
     }
   }
 }

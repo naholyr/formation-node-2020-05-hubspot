@@ -5,6 +5,18 @@
         "formation/jchabert" : {
             "file" : "jchabert.js",
             "method" : "GET"
+        },
+        "formation/jfibo" : {
+            "file" : "jfibo.js",
+            "method" : "GET"
+        },
+        "formation/jfibo_post" : {
+            "file" : "jfibo_post.js",
+            "method" : "POST"
+        },
+        "formation/jcontacts" : {
+            "file" : "jcontacts.js",
+            "method": "GET"
         }
     }
  }

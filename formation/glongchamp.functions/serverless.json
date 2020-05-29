@@ -2,5 +2,21 @@
    "runtime": "nodejs12.x",
    "version": "1.0",
    "endpoints": {
+      "formation/glongchamp" : {
+         "file" : "glongchamp.js",
+         "method" : "GET"
+        },
+        "formation/glongchamp/fibo" : {
+            "file" : "fibo.js",
+            "method" : "GET"
+        },
+        "formation/glongchamp/fibo-post" : {
+            "file" : "fibo-post.js",
+            "method" : "POST"
+        },
+        "formation/glongchamp/contacts" : {
+            "file" : "contacts.js",
+            "method" : "GET"
+        }
    }
 }

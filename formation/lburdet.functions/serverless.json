@@ -5,6 +5,18 @@
       "formation/lburdet":{
          "file":"lburdet.js",
          "method":"GET"
+      },
+      "formation/lburdet/fibo":{
+         "file":"fibo.js",
+         "method":"GET"
+      },
+      "formation/lburdet/fibo-post":{
+         "file":"fibo-post.js",
+         "method":"POST"
+      },
+      "formation/lburdet/contacts":{
+         "file":"contacts.js",
+         "method":"GET"
       }
    }
 }

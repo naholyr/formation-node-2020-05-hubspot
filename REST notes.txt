@@ -1,0 +1,15 @@
+/.../collection
+
+/books/42/authors
+
+
+GET /collection => 200 [ { id: } ]
+POST /collection => 201
+PUT /collection => 204
+DELETE /collection => 204
+
+RESTful
+
+GET /collection/id
+PUT /collection/id     +  objet complet => 204
+PATCH /collection/id   +  objet partiel => 200 + objet complet
