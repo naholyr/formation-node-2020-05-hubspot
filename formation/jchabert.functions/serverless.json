@@ -17,6 +17,10 @@
         "formation/jcontacts" : {
             "file" : "jcontacts.js",
             "method": "GET"
+        },
+        "formation/jaddcontact" : {
+            "file" : "jaddcontact.js",
+            "method": "POST"
         }
     }
  }
