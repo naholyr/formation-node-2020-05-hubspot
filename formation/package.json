@@ -16,7 +16,7 @@
     "@hubspot/api-client": "^1.0.0-beta",
     "@hubspot/cms-cli": "^1.1.7",
     "debug": "^4.1.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jest": "^26.0.1",
     "npm-run-all": "^4.1.5",
     "webpack": "^4.43.0"
